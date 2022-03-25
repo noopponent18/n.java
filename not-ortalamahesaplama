@@ -1,0 +1,16 @@
+public static void main(String[] args) {
+		
+		Scanner klavye=new Scanner(System.in);
+ 
+		System.out.println("1. vize notunuzu yaziniz");
+		int vize1=klavye.nextInt();
+		
+		System.out.println("2. vize notunuzu yaziniz");
+		int vize2=klavye.nextInt();
+		
+		System.out.println("final notunuzu yaziniz");
+		int finalnotu=klavye.nextInt();
+		
+		double not=0.2*vize1+0.2*vize2+0.6*finalnotu;
+		System.out.println("Dönem sonu geçme puanınız:"+not);
+	}
